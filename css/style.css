@@ -1,0 +1,131 @@
+/*///////////General/////////*/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+a:hover{
+    text-decoration:underline;
+}
+
+/*///////////Header/////////*/
+header{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 70px;
+    background: #ffffff;
+    border-bottom: 1px solid rgba(34,90,89,0.2);
+    z-index: 9;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    height: 45px;
+    align-items: center;
+}
+header nav ul li a{
+    text-decoration:none;
+    padding: 10px;
+    height: 45px;
+    color: black;
+    font-weight: 500;
+    justify-self: center;
+}
+header div a img{
+    height: 45px;
+    padding: 10px;
+}
+
+/*////////////////1st Section//////////////*/
+.slogan{
+    margin: 50px 0 0 0;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.slogan h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin:50px 0 0 0 ;
+}
+.slogan p{
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    margin-top: 0em;
+
+}
+.video img{
+    width: 100%;
+}
+/*////////////////Footer//////////////*/
+
+footer{
+    background-color: black;
+
+}
+.download{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    color: white;
+    padding-bottom: 70px;
+
+}
+.download .downLink img{
+    width:450px;
+    
+}
+.downLink{
+    display: flex;
+    flex-direction: column;
+}
+.downLink h2{
+    font-size: 26px;
+}
+
+.downLink p{
+    text-align: center;
+    margin: 10px auto;
+    font-size: 12px;
+}
+
+.stores h2{
+    text-align: center;
+}
+.stores div a img{
+    width: 148px;
+}
+#lists {
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+#lists ul h3{
+    color: white;
+}
+#lists a{
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    padding: 5px 0;
+    color: #cccccc;
+}   
+
+#lists div:first-child{
+    align-self: flex-start;
+    margin-top: 30px;
+}
+#lists a:hover{
+    text-decoration: underline;
+}
+
+
